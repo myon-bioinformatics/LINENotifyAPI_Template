@@ -1,5 +1,5 @@
 # LINE Notify API_Template for Python3
-<img src="LINE_Notify_IMAGE.webp" width="100">
+<img src="LINE_Notify_IMAGE.webp">
 
 You can use LINE Notify API Test Request by Python3
 
