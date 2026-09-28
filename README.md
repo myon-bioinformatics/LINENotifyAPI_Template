@@ -1,18 +1,37 @@
-# LINE Notify API_Template for Python3
-## Summary
-__You can use LINE Notify API Test Request by Python3__
->__Note__ You can confirm for LINE Notify API Tips at Wiki.
-<img src="LINE_Notify_IMAGE.webp">
+# LINE Notify API Template for Python 3
 
-![GitHub license](https://img.shields.io/github/license/myon-bioinformatics/LINENotifyAPI_Template)
-![GitHub last commit](https://img.shields.io/github/last-commit/myon-bioinformatics/LINENotifyAPI_Template)
-[![CodeQL](https://github.com/myon-bioinformatics/LINENotifyAPI_Template/actions/workflows/codeql.yml/badge.svg)](https://github.com/myon-bioinformatics/LINENotifyAPI_Template/actions/workflows/codeql.yml)
+> [!IMPORTANT]
+> **Archived / no longer actively maintained.**
+>
+> LINE Notify was discontinued on **March 31, 2025**. From April 1, 2025, the LINE Notify APIs, including `notify-api.line.me`, are no longer available. This repository is preserved as a historical Python example and is not expected to work against the retired service.
 
-[![GitHub followers](https://img.shields.io/github/followers/myon-bioinformatics?style=social)](https://github.com/myon-bioinformatics)
-[![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/myon_reddit?style=social)](https://www.reddit.com/user/myon_reddit/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/myonitbusiness?style=social)](https://twitter.com/myonitbusiness)
+## Historical purpose
 
+This repository demonstrated a minimal Python 3 request to the LINE Notify API.
 
-## References
-- About LINE Notify:[notify-bot.line.me/ ](https://notify-bot.line.me/)
-- About LINE Notify REST API:[notify-bot.line.me/doc/](https://notify-bot.line.me/doc/)
+The original example is retained in `LINENotifyAPI_Template.py` for reference. Do not create or embed credentials for the retired LINE Notify service.
+
+## Final dependency snapshot
+
+The example imports `requests`. For reproducibility, the final archived dependency snapshot is recorded in `requirements.txt`.
+
+- Python: **3.10+** (required by the recorded Requests release)
+- Requests: **2.34.2**
+- Live API verification: **not applicable**, because LINE Notify has been discontinued
+
+Install the historical dependency snapshot with:
+
+```console
+python -m pip install -r requirements.txt
+```
+
+## Successor
+
+For current LINE integrations that send messages, use the **LINE Messaging API** instead:
+
+- https://developers.line.biz/en/docs/messaging-api/
+- Service termination notice: https://developers.line.biz/en/news/2025/04/01/line-notify/
+
+## Repository status
+
+No further feature development, dependency automation, CodeQL schedules, or bot-driven maintenance is planned for this repository. The repository is intentionally kept public and read-only as historical reference after archival.
